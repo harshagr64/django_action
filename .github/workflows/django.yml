@@ -27,4 +27,4 @@ jobs:
         pip install -r codeblogs/requirements.txt
     - name: Run Tests
       run: |
-        python codeblogs/manage.py test
+        python codeblogs/manage.py runserver 0.0.0.0:8000
